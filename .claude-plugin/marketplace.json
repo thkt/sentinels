@@ -1,0 +1,33 @@
+{
+  "name": "sentinels",
+  "owner": {
+    "name": "thkt"
+  },
+  "plugins": [
+    {
+      "name": "guardrails",
+      "source": "./guardrails",
+      "description": "PreToolUse hook - oxlint/biome lint + AST security rules on Write/Edit"
+    },
+    {
+      "name": "formatter",
+      "source": "./formatter",
+      "description": "PostToolUse hook - oxfmt/biome auto-format on Write/Edit"
+    },
+    {
+      "name": "reviews",
+      "source": "./reviews",
+      "description": "PreToolUse hook - parallel static analysis context injection on Skill"
+    },
+    {
+      "name": "gates",
+      "source": "./gates",
+      "description": "Stop hook - parallel quality gates (lint, type-check, test, knip, tsgo, madge)"
+    },
+    {
+      "name": "chronicler",
+      "source": "./chronicler",
+      "description": "PostToolUse + Stop hook - documentation staleness detection and update prompts"
+    }
+  ]
+}

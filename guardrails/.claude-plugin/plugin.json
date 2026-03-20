@@ -1,0 +1,11 @@
+{
+  "name": "guardrails",
+  "version": "0.11.0",
+  "description": "PreToolUse hook for Claude Code. Combines oxlint/biome with custom security rules to validate code on Write/Edit.",
+  "author": {
+    "name": "thkt",
+    "url": "https://github.com/thkt"
+  },
+  "repository": "https://github.com/thkt/guardrails",
+  "license": "MIT"
+}

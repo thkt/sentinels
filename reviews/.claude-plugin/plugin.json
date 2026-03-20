@@ -1,0 +1,11 @@
+{
+  "name": "reviews",
+  "version": "0.6.0",
+  "description": "PreToolUse hook for Claude Code. Pre-flight static analysis gate for /audit skill invocations.",
+  "author": {
+    "name": "thkt",
+    "url": "https://github.com/thkt"
+  },
+  "repository": "https://github.com/thkt/reviews",
+  "license": "MIT"
+}
