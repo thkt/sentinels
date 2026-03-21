@@ -5,9 +5,14 @@
   },
   "plugins": [
     {
+      "name": "sentinels",
+      "source": "./cli",
+      "description": "CLI utilities - /sentinels:install for binary setup"
+    },
+    {
       "name": "guardrails",
       "source": "./guardrails",
-      "description": "PreToolUse hook - oxlint/biome lint + AST security rules on Write/Edit"
+      "description": "PreToolUse hook - oxlint auto-provision + custom security rules on Write/Edit"
     },
     {
       "name": "formatter",
@@ -22,7 +27,7 @@
     {
       "name": "gates",
       "source": "./gates",
-      "description": "Stop hook - parallel quality gates (lint, type-check, test, knip, tsgo, madge)"
+      "description": "Stop hook - parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular)"
     },
     {
       "name": "chronicler",

@@ -1,7 +1,7 @@
 {
   "name": "reviews",
   "version": "0.8.0",
-  "description": "PreToolUse hook for Claude Code. Pre-flight static analysis gate for /audit skill invocations.",
+  "description": "PreToolUse hook for Claude Code. Parallel static analysis context injection for skill invocations.",
   "author": {
     "name": "thkt",
     "url": "https://github.com/thkt"

@@ -1,7 +1,7 @@
 {
   "name": "gates",
   "version": "0.8.0",
-  "description": "Stop hook for Claude Code - parallel quality gates (knip, tsgo, madge)",
+  "description": "Stop hook for Claude Code. Parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular).",
   "author": {
     "name": "thkt",
     "url": "https://github.com/thkt"

@@ -1,0 +1,12 @@
+{
+  "name": "sentinels",
+  "version": "0.1.0",
+  "description": "CLI utilities for sentinels plugin marketplace.",
+  "author": {
+    "name": "thkt",
+    "url": "https://github.com/thkt"
+  },
+  "repository": "https://github.com/thkt/sentinels",
+  "license": "MIT",
+  "skills": "./skills/"
+}
