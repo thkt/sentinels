@@ -1,6 +1,6 @@
 {
   "name": "gates",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "PostToolUse hook for Claude Code. Parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular) on Write/Edit/MultiEdit.",
   "author": {
     "name": "thkt",
