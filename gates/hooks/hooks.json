@@ -1,8 +1,9 @@
 {
-  "description": "Parallel quality gates for Claude Code completion",
+  "description": "Parallel quality gates - validates codebase on Write/Edit/MultiEdit",
   "hooks": {
-    "Stop": [
+    "PostToolUse": [
       {
+        "matcher": "Write|Edit|MultiEdit",
         "hooks": [
           {
             "type": "command",

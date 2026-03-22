@@ -27,7 +27,7 @@
     {
       "name": "gates",
       "source": "./gates",
-      "description": "Stop hook - parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular)"
+      "description": "PostToolUse hook - parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular) on Write/Edit/MultiEdit"
     },
     {
       "name": "chronicler",

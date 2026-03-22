@@ -1,7 +1,7 @@
 {
   "name": "gates",
   "version": "0.9.0",
-  "description": "Stop hook for Claude Code. Parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular).",
+  "description": "PostToolUse hook for Claude Code. Parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular) on Write/Edit/MultiEdit.",
   "author": {
     "name": "thkt",
     "url": "https://github.com/thkt"
