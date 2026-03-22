@@ -1,6 +1,6 @@
 {
   "name": "guardrails",
-  "version": "0.14.0",
+  "version": "0.14.1",
   "description": "PreToolUse hook for Claude Code. oxlint auto-provision + custom security rules on Write/Edit.",
   "author": {
     "name": "thkt",
