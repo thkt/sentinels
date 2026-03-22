@@ -1,0 +1,28 @@
+{
+  "description": "Security guard for Claude Code - command patterns + file ACL",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/wrapper.sh shields check",
+            "timeout": 2000
+          }
+        ]
+      }
+    ],
+    "PermissionRequest": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/wrapper.sh shields acl",
+            "timeout": 2000
+          }
+        ]
+      }
+    ]
+  }
+}
