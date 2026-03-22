@@ -33,6 +33,11 @@
       "name": "chronicler",
       "source": "./chronicler",
       "description": "PostToolUse + Stop hook - documentation staleness detection and update prompts"
+    },
+    {
+      "name": "shields",
+      "source": "./shields",
+      "description": "PreToolUse + PermissionRequest hook - command guard (44 patterns + normalization) + file ACL"
     }
   ]
 }

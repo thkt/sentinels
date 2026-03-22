@@ -1,6 +1,6 @@
 # Sentinels
 
-Claude Code plugin marketplace. Install 5 Rust-powered hook tools from a single marketplace.
+Claude Code plugin marketplace. Install 6 Rust-powered hook tools from a single marketplace.
 
 ## Install
 
@@ -18,6 +18,7 @@ claude plugins install guardrails   # or any tool below
 | [reviews](https://github.com/thkt/reviews)       | PreToolUse         | Skill                      | Parallel static analysis context injection                                    |
 | [gates](https://github.com/thkt/gates)           | Stop               | —                          | Parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular) |
 | [chronicler](https://github.com/thkt/chronicler) | PostToolUse + Stop | Write\|Edit\|MultiEdit / — | Documentation staleness detection and update prompts                          |
+| [shields](https://github.com/thkt/shields)       | PreToolUse + PermissionRequest | Bash / all | Command guard (44 patterns + N1-N7 normalization) + file ACL |
 
 ## Configuration
 
@@ -82,6 +83,20 @@ Docs directory defaults to `workspace/docs`. Change paths or enable the gate mod
   "chronicler": {
     "dir": "docs",
     "gate": true
+  }
+}
+```
+
+### shields
+
+All guards enabled by default. Add custom patterns or configure ACL:
+
+```json
+{
+  "shields": {
+    "custom_patterns": [{"id": "kubectl-delete", "regex": "\\bkubectl\\s+delete\\b", "context": "Ask before deleting"}],
+    "safe_dirs": ["workspace"],
+    "deny_subagent": ["rules/"]
   }
 }
 ```
