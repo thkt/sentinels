@@ -1,6 +1,6 @@
 {
   "name": "shields",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Security hook for Claude Code. Command guard (PreToolUse Bash) + file ACL (PermissionRequest).",
   "author": {
     "name": "thkt",
