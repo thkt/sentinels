@@ -20,11 +20,6 @@
       "description": "PostToolUse hook - oxfmt/biome auto-format on Write/Edit"
     },
     {
-      "name": "reviews",
-      "source": "./reviews",
-      "description": "PreToolUse hook - parallel static analysis context injection on Skill"
-    },
-    {
       "name": "gates",
       "source": "./gates",
       "description": "PostToolUse hook - parallel quality gates (lint, type-check, test, knip, tsgo, litmus, circular) on Write/Edit/MultiEdit"
